@@ -1,0 +1,166 @@
+.wrapper{
+    width:100%;
+    height:680px;
+    position: relative;
+  
+}
+.container{
+    width: 90%;
+    min-height: 70%;
+    position: absolute;
+    background: #fff;
+    left: 4%;
+    top: 9%;
+    border-radius: 15px;
+    padding: 30px;
+}
+.header{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    padding: 7px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.content{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+}
+.contentLeft{
+    width: 35%;
+    height: 100%;
+    margin: 11px 0;
+}
+.left{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    z-index: 4;
+    box-shadow: 1px 2px 5px 3px #ccc;
+
+    &:hover{
+        .lables{
+            display:flex;
+        }
+    }
+}
+.img{
+    border-radius: 15px;
+}
+.inputchoose{
+   
+   display: none;
+}
+.lables{
+    display:none;
+    position: absolute;
+    background: rgb(83 86 90 / 75%);
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    // display: flex;
+    justify-content: center;
+}
+.iconImage{
+    font-size: 40px;
+    width: 100%;
+    height: 24%;
+    margin-top: 28%;
+    cursor:pointer;
+}
+.btn{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    margin: 10px 0;
+}
+.btnImg{
+    background: #ff4605;
+    width: 37%;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+}
+.contentRight{
+  width: 65%;
+  height:100%;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.text{
+    width: 45%;
+    min-height: 50px;
+    position: relative;
+}
+.name{
+    width: 100%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    box-shadow: 1px 3px 6px 5px #ccc;
+    border-radius: 11px;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.btnCar{
+    width: 64%;
+    height: 55px;
+    display: flex;
+    margin: 15px 0px;
+    justify-content: flex-end;
+    position: absolute;
+}
+.btnhuy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 47px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 10px 34px;
+    padding: 10px;
+    color: #000;
+    border: 1px solid #ff4605;
+    cursor:pointer;
+
+    &:hover{
+        background-color: #cccccc24;
+    }
+}
+.btnAdd{
+    background: #ff4605;
+    width: 100px;
+    height: 47px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 42px 10px 0;
+    color: #fff;
+    cursor:pointer;
+
+    &:hover{
+       opacity: 0.6;
+    }
+}

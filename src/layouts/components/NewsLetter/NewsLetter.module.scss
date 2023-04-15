@@ -1,0 +1,85 @@
+.wrapper{
+     width:100%;
+     height:100%;
+}
+.container{
+     width:100%;
+     height:100%;   
+     display: flex; 
+     justify-content: space-between;
+     align-items: center;
+     padding: 45px;
+}
+.Name{
+    width: 20%;
+    height: 100%;
+    font-size: 45px;
+    font-weight: 600;
+}
+.content{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.input{
+    width: 78%;
+    border-radius: 10px;
+    height: 53px;
+    display: flex;
+    box-shadow: 7px 7px 23px 9px rgb(196 196 196 / 34%);
+}
+.email{
+    width: 100%;
+    background: none;
+    font-size: 17px;
+    padding: 20px 12px;
+}
+.footerButton{
+    width: 140px;
+     display: flex;
+     height: 43px;
+     background: #ff4605;
+     align-items: center;
+     justify-content: space-around;
+     overflow: hidden;
+     border-radius: 10px;
+     color: #fff;
+     cursor: pointer;
+     margin: 29px 35px;
+    position: relative;
+
+    &:hover{
+        .icon{
+            display:block;
+            height: 19px;
+            font-size: 20px;
+            margin: 6px;
+
+        }
+    }
+ }
+ .footerButton::before{
+    content: '';
+   position: absolute;
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.2);
+   transform: translateX(0);
+   transition: transform 0.3s ease;
+ }
+ .footerButton:hover::before{
+    transform: translateX(100%);
+ }
+ .link{
+    display: flex;
+    align-items: center;
+ }
+.icon{
+    display:none;
+}
+.title{
+    width: 29%;
+    font-size: 24px;
+}
