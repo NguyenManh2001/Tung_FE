@@ -1,0 +1,28 @@
+.wrapper{
+   width:100%;
+   height: 100%;
+   margin-top: 9%;
+}
+.container{
+   width:100%;
+   height:100%;
+   display: flex;
+}
+.left{
+width: 30%;
+}
+.right{
+  flex: 1;
+}
+.header{
+   font-weight: 600;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+.button{
+   display: flex;
+    justify-content: center;
+    margin: 40px;
+}

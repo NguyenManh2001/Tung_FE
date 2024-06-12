@@ -1,7 +1,8 @@
 .wrapper{
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: fixed;
+    top: 0;
     z-index: 4;
 }
 .container{
@@ -9,7 +10,10 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    // border-bottom: 1px solid #ccc;
+    box-shadow: 2px 2px 2px 2px #cccccc78;
 }
 .logo{
 
@@ -22,14 +26,15 @@
     display: flex;
     width: 45%;
     height: 50px;
+    color: #50514f;
     justify-content: space-around;
     align-items: center;
 }
 .menuItem{
-
+    color: #50514f;
 }
 .Home{
-    color: #fff !important;
+    color: #50514f;
     font-size: 16px;
     font-weight: 600;
 
